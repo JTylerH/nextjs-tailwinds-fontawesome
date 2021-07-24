@@ -27,8 +27,7 @@ Clone locally with Github CLI `npm install gh`
 gh repo clone JTylerH/nextjs-tailwinds-fontawesome
 cd nextjs-tailwinds-fontawesome
 ```
-or  
-[`Copy repo to your GitHub account`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
+or [`Copy repo to your GitHub account`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
 
 ### Run Installer
 ```bash
