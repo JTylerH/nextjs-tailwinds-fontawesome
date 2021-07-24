@@ -22,9 +22,12 @@ git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
 cd nextjs-tailwinds-fontawesome
 ```
 
+### Run Installer
+```bash
+npm install
+```
+
 ### Optional: Install Font Awesome Pro
-
-
 1. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
 2. Copy the last command in the intructions directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
 3. See below what the copied command should look like
@@ -36,12 +39,21 @@ FONTAWESOME_NPM_AUTH_TOKEN=TOKEN npm install --save @fortawesome/fontawesome-pro
 *If logged into Font Awesome, your TOKEN should already be included.*  
 *If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
 
-### Run Installer
+### Optional: Install Additional Font Awesome Free styles
 ```bash
-npm install
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
 ```
 
-### Start Development Server
+### Optional: Install Additional Font Awesome Pro styles
+```bash
+npm i --save @fortawesome/pro-solid-svg-icons
+npm i --save @fortawesome/pro-regular-svg-icons
+npm i --save @fortawesome/pro-light-svg-icons
+npm i --save @fortawesome/pro-duotone-svg-icons
+```
+
+### Start Development Server in root
 ```bash
 npm run dev
 ```
