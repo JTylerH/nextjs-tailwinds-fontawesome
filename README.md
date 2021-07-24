@@ -22,6 +22,11 @@ git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
 cd nextjs-tailwinds-fontawesome
 ```
 
+### Run Installer
+```bash
+npm install
+```
+
 ### Optional: Install Font Awesome Pro
 1. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
 2. Copy the content for the `.nmprc` file under the instructions for `Per-Project` directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
@@ -32,12 +37,10 @@ cd nextjs-tailwinds-fontawesome
 ```
 *If logged into Font Awesome, your TOKEN should already be included.*  
 *If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
-
-### Run Installer
+4. Install Font Awesome Pro package
 ```bash
-npm install
+npm install --save @fortawesome/fontawesome-pro
 ```
-
 ### Optional: Install Additional Font Awesome Free styles
 ```bash
 npm install --save @fortawesome/free-brands-svg-icons
