@@ -26,9 +26,9 @@ export default function Navbar() {
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <FontAwesomeIcon icon={['far','times']} className="block h-6 w-6" aria-hidden="true" />
+                    <FontAwesomeIcon icon={['fas','times']} className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <FontAwesomeIcon icon={['far','bars']} className="block h-6 w-6" aria-hidden="true" />
+                    <FontAwesomeIcon icon={['fas','bars']} className="block h-6 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>
@@ -66,7 +66,7 @@ export default function Navbar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                   <span className="sr-only">View notifications</span>
-                  <FontAwesomeIcon icon={['far','bell']} className="h-6 w-6" aria-hidden="true" />
+                  <FontAwesomeIcon icon={['fas','bell']} className="h-6 w-6" aria-hidden="true" />
                 </button>
 
                 {/* Profile dropdown */}
