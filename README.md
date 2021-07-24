@@ -36,7 +36,7 @@ npm install
 //npm.fontawesome.com/:_authToken=YOUR-PRO-PACKAGE-TOKEN
 ```
 *If logged into Font Awesome, your TOKEN should already be included.*  
-*If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
+*If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*  
 4. Install Font Awesome Pro package
 ```bash
 npm install --save @fortawesome/fontawesome-pro
