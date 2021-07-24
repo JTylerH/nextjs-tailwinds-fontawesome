@@ -17,6 +17,7 @@
 ## How to use
 
 ### Clone Project
+Clone locally
 ```bash
 git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
 cd nextjs-tailwinds-fontawesome
