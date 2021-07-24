@@ -26,8 +26,7 @@ or with Github CLI
 gh repo clone JTylerH/nextjs-tailwinds-fontawesome
 cd nextjs-tailwinds-fontawesome
 ```
-or copy as template to your GitHub account
-[`Use Template`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
+or [`copy as template to your GitHub account`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
 
 ### Run Installer
 ```bash
