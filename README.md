@@ -22,12 +22,13 @@ Clone locally
 git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
 cd nextjs-tailwinds-fontawesome
 ```
-or with Github CLI
+Clone locally with Github CLI `npm install gh`
 ```bash
 gh repo clone JTylerH/nextjs-tailwinds-fontawesome
 cd nextjs-tailwinds-fontawesome
 ```
-or [`copy as template to your GitHub account`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
+or  
+[`Copy repo to your GitHub account`](https://github.com/jtylerh/nextjs-tailwinds-fontawesome/generate)
 
 ### Run Installer
 ```bash
