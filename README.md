@@ -28,9 +28,9 @@ npm install
 ```
 
 ### Optional: Install Font Awesome Pro
-#### Authenticate
+#### Authenticate access to Font Awesome Pro npm
 1. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
-2. Copy the content for the `.nmprc` file under the instructions for `Per-Project` directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
+2. Copy the content for the `.npmrc` file under the instructions for `Per-Project` directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
 3. Replace the contents of the included `.npmrc` file
 ```bash
 @fortawesome:registry=https://npm.fontawesome.com/
