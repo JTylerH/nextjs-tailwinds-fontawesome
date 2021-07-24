@@ -22,11 +22,6 @@ git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
 cd nextjs-tailwinds-fontawesome
 ```
 
-### Run Installer
-```bash
-npm install
-```
-
 ### Optional: Install Font Awesome Pro
 1. Uncomment the FortAwesome lines in the included `.npmrc` file
 ```bash
@@ -34,14 +29,19 @@ npm install
 # //npm.fontawesome.com/:_authToken=${FONTAWESOME_NPM_AUTH_TOKEN}
 ```
 2. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
-3. Copy the last command in the intructions directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
-4. See below what the copied command should look like
+3. Copy the content for the `.nmprc` file under the intructions for `Per-Project` directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
+4. Replace the contents of the included `.npmrc` file
 ```bash
-FONTAWESOME_NPM_AUTH_TOKEN=TOKEN npm install --save @fortawesome/fontawesome-pro
+@fortawesome:registry=https://npm.fontawesome.com/
+//npm.fontawesome.com/:_authToken=YOUR-PRO-PACKAGE-TOKEN
 ```
-5. Run the command you copied with your own Pro Package Token.  
 *If logged into Font Awesome, your TOKEN should already be included.*  
 *If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
+
+### Run Installer
+```bash
+npm install
+```
 
 ### Optional: Install Additional Font Awesome Free styles
 ```bash
