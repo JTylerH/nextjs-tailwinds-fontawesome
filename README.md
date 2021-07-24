@@ -39,7 +39,7 @@ npm install
 ```bash
 FONTAWESOME_NPM_AUTH_TOKEN=TOKEN npm install --save @fortawesome/fontawesome-pro
 ```
-4. Run the command you copied with your own Pro Package Token.  
+5. Run the command you copied with your own Pro Package Token.  
 *If logged into Font Awesome, your TOKEN should already be included.*  
 *If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
 
