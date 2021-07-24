@@ -19,6 +19,7 @@
 ### Clone Project
 ```bash
 git clone https://github.com/jtylerh/nextjs-tailwinds-fontawesome.git
+cd nextjs-tailwinds-fontawesome
 ```
 
 ### Optional: Install Font Awesome Pro
@@ -35,12 +36,12 @@ FONTAWESOME_NPM_AUTH_TOKEN=TOKEN npm install --save @fortawesome/fontawesome-pro
 *If logged into Font Awesome, your TOKEN should already be included.*  
 *If you need to regenerate your Pro Package Token, visit your [Account Details page](https://fontawesome.com/account)*
 
-### Run Installer in root
+### Run Installer
 ```bash
 npm install
 ```
 
-### Start Development Server in root
+### Start Development Server
 ```bash
 npm run dev
 ```
