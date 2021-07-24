@@ -28,10 +28,14 @@ npm install
 ```
 
 ### Optional: Install Font Awesome Pro
-1. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
-2. Copy the last command in the intructions directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
-3. See below what the copied command should look like
-
+1. Uncomment the FortAwesome lines in the included `.npmrc` file
+```bash
+# @fortawesome:registry=https://npm.fontawesome.com/
+# //npm.fontawesome.com/:_authToken=${FONTAWESOME_NPM_AUTH_TOKEN}
+```
+2. [Login to Font Awesome](https://fontawesome.com/sessions/sign-in)  
+3. Copy the last command in the intructions directly from [this page](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers#installing-pro)  
+4. See below what the copied command should look like
 ```bash
 FONTAWESOME_NPM_AUTH_TOKEN=TOKEN npm install --save @fortawesome/fontawesome-pro
 ```
